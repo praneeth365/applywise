@@ -1,0 +1,48 @@
+{
+  ".": {
+    "import": {
+      "types": "./dist/pdf-parse/esm/index.d.ts",
+      "default": "./dist/pdf-parse/esm/index.js"
+    },
+    "browser": {
+      "types": "./dist/pdf-parse/web/pdf-parse.es.d.ts",
+      "default": "./dist/pdf-parse/web/pdf-parse.es.js"
+    },
+    "default": {
+      "types": "./dist/pdf-parse/cjs/index.d.cts",
+      "default": "./dist/pdf-parse/cjs/index.cjs"
+    },
+    "require": {
+      "types": "./dist/pdf-parse/cjs/index.d.cts",
+      "default": "./dist/pdf-parse/cjs/index.cjs"
+    }
+  },
+  "./node": {
+    "import": {
+      "types": "./dist/node/esm/index.d.ts",
+      "default": "./dist/node/esm/index.js"
+    },
+    "default": {
+      "types": "./dist/node/cjs/index.d.cts",
+      "default": "./dist/node/cjs/index.cjs"
+    },
+    "require": {
+      "types": "./dist/node/cjs/index.d.cts",
+      "default": "./dist/node/cjs/index.cjs"
+    }
+  },
+  "./worker": {
+    "import": {
+      "types": "./dist/worker/esm/index.d.ts",
+      "default": "./dist/worker/esm/index.js"
+    },
+    "default": {
+      "types": "./dist/worker/cjs/index.d.cts",
+      "default": "./dist/worker/cjs/index.cjs"
+    },
+    "require": {
+      "types": "./dist/worker/cjs/index.d.cts",
+      "default": "./dist/worker/cjs/index.cjs"
+    }
+  }
+}
